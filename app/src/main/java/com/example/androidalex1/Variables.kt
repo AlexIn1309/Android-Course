@@ -6,10 +6,11 @@ fun main() {
 
   // Integer = entero
   val age:Int = 30
+  var age2:Int = 25
   // Long
   val example:Long = 9223372036854775807
   // Float
-  val floatExample:Float = 3.1415926535f
+  val floatExample:Float = 3.141592f
   // Double
   val doubleExample:Double = 3241.3123123
 
@@ -27,4 +28,20 @@ fun main() {
   // Booleans
   val booleanExample1:Boolean = true
   val booleanExample2:Boolean = false
+
+  // Funciones aritmeticas
+  println("Sumar:")
+  println(age + age2)
+
+  println("Restar:")
+  println(age - age2)
+
+  println("Multiplicar:")
+  println(age * age2)
+
+  println("Division:")
+  println(age / age2)
+
+  println("Modulo:")
+  println(age % age2)
 }
